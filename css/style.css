@@ -149,6 +149,7 @@ nav ul li a:hover{
 .mypic {
     border-radius: 100%;
     width: 50%;
+    -webkit-filter: grayscale(60%);
 } 
 
 
@@ -390,6 +391,20 @@ textarea{
     color: white;
   }
 
+
+  .proimg{
+    width: 100%;
+    height: 100%;
+  }
+
+  .arrow, .arrow:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+.active{
+  text-decoration: none;
+}
 
 
 .ring {
@@ -671,11 +686,6 @@ textarea{
 
 
 
-
-
-
-
-
 @media (max-width:410px){
 
   .menucov {
@@ -690,6 +700,15 @@ textarea{
 
   .gits{
     padding: 60px 0px;
+  }
+
+  .ring{
+
+        width: 156px;
+    height: 156px;
+    position: absolute;
+    top: 41%;
+    left: 50%;
   }
 
 }
