@@ -669,3 +669,27 @@ textarea{
   width: 100%;
 }
 
+
+
+
+
+
+
+
+@media (max-width:410px){
+
+  .menucov {
+    display: none;
+  }
+
+  .hero h1{
+    font-size: 26px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+
+  .gits{
+    padding: 60px 0px;
+  }
+
+}
